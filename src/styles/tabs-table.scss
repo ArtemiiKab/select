@@ -1,0 +1,36 @@
+.tabs-table {
+  & tbody {
+    background-color: #fefefe;
+    font-size: .75rem;
+    overflow-wrap:break-word;
+  }
+  
+  & th {
+    border: 2px solid #fff;
+    background: #a7d163;
+    padding: .5rem .625rem .625rem;
+    min-width: 0;
+  }
+  
+  & tr:nth-of-type(even) {
+    background-color:#F1F1F1;
+  }
+  
+  & td {
+    border: 2px solid #fff;
+    padding: .5rem .625rem .625rem;
+    min-width: 0;
+  }
+  
+  & .margin-bottom-0 {
+    margin-bottom:0;
+  }
+  
+  & h3 {
+    font-size: 1.25rem;
+  }
+  
+  & .col-lg-12 {
+    padding:.2rem;
+  }
+}

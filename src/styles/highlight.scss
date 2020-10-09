@@ -1,0 +1,54 @@
+.highlight {
+  & .container {
+    margin-bottom: 1.2rem;
+    padding: 1.8rem 0rem;
+    background: #f7f5f6;
+
+    & .row .row {
+      width:100%;
+      padding:0 1.5rem;
+    }
+  }
+
+  & .col-item {
+    border: 2px solid #cdcccc;
+    padding:1rem;
+    transition: border-color .25s ease-out,color .25s ease-out;
+
+    &:hover {
+      border: 2px solid #FFA200;
+    }
+  }
+
+  & .large {
+    font-weight:bold; 
+  }
+
+  & p {
+    margin-bottom:0;
+  }
+
+  & img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  & .reglazePrice {
+    color:#9f0000;
+  }
+
+  & .generic {
+    padding: .85em 1em;
+    color:#fff;
+    font-size:1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: #fc4c02;
+    transition: background-color .25s ease-out,color .25s ease-out;
+
+    &:hover {
+      background-color: #CC0000;
+    }
+  }
+}

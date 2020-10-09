@@ -1,0 +1,49 @@
+.container-fluid {
+  padding: 0
+}
+ 
+.header {
+     background-color:#F6F6F6;
+     align-items: center;
+     justify-content: space-between;
+}
+   
+#siteLogo {
+  display:block;
+  width: 224px;
+  height: 90px;
+  background-image: url(https://d9qzjwuieyamt.cloudfront.net/5.4.2.6/res/images/sprite/layout-sprite-uk@2x.png?20201007193146);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 24px 3px;
+}
+ 
+.blue_ul {
+  color: #00799e;
+  text-decoration: underline;
+}
+ 
+.covid-popup {
+  background: #fcf8e3;
+  padding: .75rem 0;
+ 
+  & p {
+    margin:0;
+  }
+ 
+  @media(max-width:992px) {
+    display:none;
+  }
+ 
+}
+ 
+@media(max-width:576px){
+  #siteLogo {
+    background-position: 10px -116px;
+    width: 150px;
+    height: 35px;   
+  }
+}
+
+
+ 

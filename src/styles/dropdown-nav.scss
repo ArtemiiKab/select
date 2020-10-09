@@ -1,0 +1,31 @@
+.dropdown-nav {
+
+  & ul {
+    list-style: none;
+    padding:0;
+    font-size:.75rem;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+
+    & li {
+      display:block;
+      padding: .4rem 4rem .4rem 1rem;
+      box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
+      &:hover{
+        background-color:#b4b2b2
+      }
+
+    }
+
+    & a {
+      color: black;
+      text-decoration: none;
+    }
+
+    & .dropdown__breacker {
+      box-shadow: 0 2px rgba(0,0,0,0.3);
+      font-size:.8rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+}

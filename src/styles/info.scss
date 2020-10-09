@@ -1,0 +1,19 @@
+.text-center {
+  position:relative;
+  padding:0 5%;
+  z-index:1;
+  & h1 {
+    font-size:1.5rem;
+    font-weight:bold;
+  }
+
+  & p {
+    font-size:0.875rem;
+  }
+}
+  
+@media(max-width:768px){
+  .show-for-medium {
+    display:none;
+  }
+}

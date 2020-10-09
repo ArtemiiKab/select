@@ -1,0 +1,16 @@
+@import './header.scss';
+@import './headericons.scss';
+@import './nav.scss';
+@import './dropdown-nav.scss';
+@import './breadcrumb.scss';
+@import './info.scss';
+@import './highlight.scss';
+@import './tabs.scss';
+@import './tabs-content.scss';
+@import './tabs-table.scss';
+@import './tabs-steps.scss';
+@import './tabs-should.scss';
+
+.container {
+  max-width:1200px;
+}
