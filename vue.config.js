@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: 'select-specs',
+  publicPath: 'select',
 }
