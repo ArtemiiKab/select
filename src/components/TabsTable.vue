@@ -1,11 +1,11 @@
 <template>
   <div class="col-lg-12 text-center tabs-table">
-		<div class="row">
-			<div class="col-lg-12">
-				<h3><strong>Lens prices for reglaze orders</strong></h3>
-				<p class="margin-bottom-0">This is an indication of our reglaze prices for <strong>clear lenses only</strong>. More lens and tinted options are available once you start your order.</p>
-				<p class="small"><em>Prices correct as of October 2016 and are subject to change at any time. Prices are 'from' and can vary for higher prescriptions.</em></p>
-				<br>
+    <div class="row">
+      <div class="col-lg-12">
+	<h3><strong>Lens prices for reglaze orders</strong></h3>
+	<p class="margin-bottom-0">This is an indication of our reglaze prices for <strong>clear lenses only</strong>. More lens and tinted options are available once you start your order.</p>
+	<p class="small"><em>Prices correct as of October 2016 and are subject to change at any time. Prices are 'from' and can vary for higher prescriptions.</em></p>
+	<br>
         <div class="container">
           <table class="reglazePrice">
             <tbody>
@@ -72,7 +72,7 @@
             </tbody>
           </table>
         </div>	
-			</div>
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 </template>
